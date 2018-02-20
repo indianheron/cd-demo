@@ -8,10 +8,10 @@ files:
 #    - location: scripts/install_dependencies
 #      timeout: 300
 #      runas: root
-#    - location: /home/ubuntu/start-server.sh
-#      timeout: 300
-#      runas: ubuntu
-#  ApplicationStop:
-#    - location: /home/ubuntu/stop-server.sh
-#      timeout: 300
-#      runas: ubuntu
+    - location: /home/ubuntu/start-server.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStop:
+    - location: /home/ubuntu/stop-server.sh
+      timeout: 300
+      runas: ubuntu
