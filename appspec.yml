@@ -11,7 +11,7 @@ hooks:
     - location: /home/ubuntu/start-server.sh
       timeout: 300
       runas: ubuntu
-  ApplicationStop:
-    - location: /home/ubuntu/stop-server.sh
-      timeout: 300
-      runas: ubuntu
+#  ApplicationStop:
+#    - location: /home/ubuntu/stop-server.sh
+#      timeout: 300
+#      runas: ubuntu
